@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
+app.get('/hello', (req, res) => {
+    res.send('Hello World!');
+});
+
 // 启动服务
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
