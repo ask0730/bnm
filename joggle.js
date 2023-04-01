@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 80;
+const port = 8080;
 
 // 添加一个 GET 请求的路由
 app.get('/', (req, res) => {
